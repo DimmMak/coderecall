@@ -104,7 +104,7 @@ When the user picks a language, show the section menu. They pick one or type "sh
 📂 SQL DRILLS
 ━━━━━━━━━━━━━
 
-Pick a section by number:
+Where do you want to focus?
 
   [1] 📥 Querying & Filtering   — SELECT, FROM, WHERE, AND/OR, IN, BETWEEN, LIKE, DISTINCT, LIMIT
   [2] 🧹 Cleaning               — COALESCE, NULLIF, CASE WHEN, CAST, TRIM, REPLACE
@@ -121,7 +121,7 @@ Pick a section by number:
 📂 PYTHON / PANDAS DRILLS
 ━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Pick a section by number:
+Where do you want to focus?
 
   [1] 📥 Loading Data        — read_csv, read_sql, read_excel, pd.DataFrame
   [2] 🧹 Cleaning            — fillna, dropna, astype, rename, drop_duplicates, replace
