@@ -27,9 +27,9 @@ Language?     [sql / python]
 Stock?        [ticker or "skip" for generic drills]
 Objective?    [what do you want to find out? or "skip"]
 Level?
-  [1] 👀 Half Visible    S_L_C_ * F_O_ trades W_E_E price > 200
-  [2] 🔑 First Letter    S_____ * F___ trades W____ price > 200
-  [3] 🧠 Full Recall     ________________________________________
+  [1] 👀 Half Visible — every other letter shown
+  [2] 🔑 First Letter — only the first letter shown
+  [3] 🧠 Full Recall  — nothing shown, type from memory
 ```
 
 **Screen 2 — Section pick (shown AFTER setup is complete):**
