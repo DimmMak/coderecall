@@ -102,16 +102,18 @@ This is the core. Follow it EXACTLY every time.
 Show the prompt (what the code should do) and the blanked-out code based on their level.
 
 **Level 1 — 👀 Half Visible:**
-Show every other letter of each keyword (positions 2, 4, 6 are blanked). Non-keywords shown in full. User still types the first letter to reveal the full word.
+Show every other letter STARTING FROM THE SECOND POSITION. First letter is NEVER shown — it's the answer. Non-keywords shown in full.
+
+**HARD RULE: The first letter is NEVER given in ANY level. It is always what the user types.**
 
 ```
 📝 Get average closing price of TSLA by month
 
-  S_L_C_ DATE_TRUNC('month', date) A_ month, A_G(close) A_ avg_close
-  F_O_ stock_prices
-  W_E_E ticker = 'TSLA'
-  G_O_P B_ month
-  O_D_R B_ month
+  _E_E_T DATE_TRUNC('month', date) __ month, __G(close) __ avg_close
+  __O_ stock_prices
+  __E_E ticker = 'TSLA'
+  __O_P __ month
+  __D_R __ month
 
 Type the first letter of each keyword to reveal it ⬇️
 ```
