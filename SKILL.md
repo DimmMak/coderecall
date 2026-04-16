@@ -102,7 +102,7 @@ This is the core. Follow it EXACTLY every time.
 Show the prompt (what the code should do) and the blanked-out code based on their level.
 
 **Level 1 — 👀 Half Visible:**
-Show every other letter of each keyword. Non-keywords (table names, values, operators) shown in full.
+Show every other letter of each keyword (positions 2, 4, 6 are blanked). Non-keywords shown in full. User still types the first letter to reveal the full word.
 
 ```
 📝 Get average closing price of TSLA by month
@@ -113,22 +113,22 @@ Show every other letter of each keyword. Non-keywords (table names, values, oper
   G_O_P B_ month
   O_D_R B_ month
 
-Type the first letter of each keyword ⬇️
+Type the first letter of each keyword to reveal it ⬇️
 ```
 
 **Level 2 — 🔑 First Letter:**
-Show only the first letter + underscores for length. Non-keywords shown in full.
+Show ONLY underscores matching the word length. NO letters visible. The user types the first letter to reveal the full word. The first letter IS the answer, not a hint.
 
 ```
 📝 Get average closing price of TSLA by month
 
-  S_____ DATE_TRUNC('month', date) A_ month, A__(close) A_ avg_close
-  F___ stock_prices
-  W____ ticker = 'TSLA'
-  G____ B_ month
-  O____ B_ month
+  ______ DATE_TRUNC('month', date) __ month, ___(close) __ avg_close
+  ____ stock_prices
+  _____ ticker = 'TSLA'
+  _____ __ month
+  _____ __ month
 
-Type the first letter of each keyword ⬇️
+Type the first letter of each keyword to reveal it ⬇️
 ```
 
 **Level 3 — 🧠 Full Recall:**
