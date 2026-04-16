@@ -202,36 +202,33 @@ After each input:
 
 **Correct:**
 ```
-✅ SELECT DATE_TRUNC('month', date) AS month, AVG(close) AS avg_close
-   +10 pts | 🔥 Streak: 7
+  dropna                          +5 pts | Streak: 2
 ```
-Reveal the keyword. Show points earned. Show streak. Move cursor to next blank.
+Just reveal the word cleanly. Points and streak on the same line, right-aligned. No emoji on correct answers — the revealed word IS the reward. Move to next blank.
 
 **Wrong:**
 ```
-❌ Try again
+  ✗ try again                     -1 pt | Streak: 0
 ```
-Shake effect (just show ❌). Don't reveal. Don't move on. Streak resets to 0.
+Don't reveal. Don't move on. Streak resets. Show penalty.
 
 ### Step 4 — Complete the drill
 
 When all keywords are filled:
 
 ```
-✅✅ DRILL COMPLETE
-━━━━━━━━━━━━━━━━━
-SELECT DATE_TRUNC('month', date) AS month, AVG(close) AS avg_close
-FROM stock_prices
-WHERE ticker = 'TSLA'
-GROUP BY month
-ORDER BY month
+DRILL COMPLETE
+━━━━━━━━━━━━━━
+df = pd.read_csv('tsla_prices.csv')
+df = df.dropna()
+df = df.rename(columns={'Close': 'close'})
 
-⏱️ 12.3s | 🎯 6/6 keywords | 🔥 Streak: 12 | 📊 +68 pts
+6/6 keywords | 12.3s | +68 pts | Streak: 12
 
 [next drill auto-loads in 2 seconds]
 ```
 
-Show the complete query clean. Show time, accuracy, streak, points. Auto-advance.
+Show the complete query clean. Stats on ONE line. No emoji spam. Auto-advance.
 
 ### Step 5 — Between drills (command window)
 
@@ -299,27 +296,25 @@ Show these if user types `/help`. All commands require the `/` prefix to avoid c
 When user types `/stop` or `/done`:
 
 ```
-📊 SESSION COMPLETE
-━━━━━━━━━━━━━━━━━━━
+SESSION COMPLETE
+━━━━━━━━━━━━━━━━
 
-⏱️ Time:              8:32
-📝 Drills completed:   12
-🎯 Accuracy:           87% (52/60 keywords)
-🔥 Best streak:        14
-📊 Total score:        847
+Time:           8:32
+Drills:         12
+Accuracy:       87% (52/60 keywords)
+Best streak:    14
+Score:          847
 
-🏆 KEYWORDS MASTERED:
-✅ SELECT  ✅ FROM  ✅ WHERE  ✅ AND  ✅ ORDER BY  ✅ GROUP BY
+MASTERED:
+  SELECT  FROM  WHERE  AND  ORDER BY  GROUP BY
 
-⚠️ NEEDS WORK:
-❌ HAVING (2/4 correct)
-❌ BETWEEN (1/3 correct)
-❌ CASE WHEN (0/2 correct)
+NEEDS WORK:
+  HAVING (2/4)  BETWEEN (1/3)  CASE WHEN (0/2)
 
-💡 Recommendation: Drill the "clean" section next — CASE WHEN and
-   COALESCE are your weakest keywords.
+Recommendation: Focus on "cleaning" next — CASE WHEN
+and COALESCE are your weakest keywords.
 
-Type "again" to keep drilling or "new" for fresh setup.
+Type /again to keep drilling or /new for fresh setup.
 ```
 
 ---
@@ -371,7 +366,7 @@ Use generic but realistic drills.
 
 6. **KEEP IT FAST.** The rhythm is the product. Letter → reveal → letter → reveal. Never break the flow with text walls.
 
-7. **EMOJIS ARE FUNCTIONAL.** ✅ correct, ❌ wrong, 🔥 streak, 📊 score, ⏱️ time, 🎯 accuracy, 🏆 mastered, ⚠️ needs work. Always paired, never single.
+7. **MINIMAL EMOJI.** The title screen uses emojis. The drills do NOT. During gameplay, keep it clean — no emoji on correct reveals, no emoji on stats lines. The revealed word is the reward. The only emoji in drills is ✗ on wrong answers. Session end screen is text-only.
 
 ---
 
