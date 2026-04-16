@@ -25,16 +25,16 @@ Show this ONCE at the start of every new session, before setup:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  "My problem is that I have been persecuted by an integer.
-   For seven years this number has followed me around."
-   — George Miller, on why your brain chunks patterns (1956)
+  🧩 "My problem is that I have been persecuted by an integer.
+      For seven years this number has followed me around."
+      — George Miller · Chunking & Memory Limits · 1956
 
-  "Just because a person cannot recall a word does not mean
-   that the word is not in memory."
-   — Endel Tulving, father of cued recall theory (1973)
+  🔑 "Just because a person cannot recall a word does not
+      mean that the word is not in memory."
+      — Endel Tulving · Father of Cued Recall · 1973
 
-  "Making things hard on yourself, but in a good way."
-   — Robert Bjork, on why the right difficulty = faster learning (1994)
+  💪 "Making things hard on yourself, but in a good way."
+      — Robert Bjork · Desirable Difficulties · 1994
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
