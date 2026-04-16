@@ -77,9 +77,9 @@ Step 3 (after stock answered — skip this step if stock was "skip"):
 
 Step 4 (after objective answered or skipped):
   Level?
-    [1] 👀 Half Visible — every other letter shown
-    [2] 🔑 First Letter — only the first letter shown
-    [3] 🧠 Full Recall  — nothing shown, type from memory
+    [1] 👀 Guided       — hints inside each word, type first letter to reveal
+    [2] 🔑 Recall       — only word length shown, type first letter to reveal
+    [3] 🧠 Memory       — blank, type the entire word from memory
 
 Step 5 (after level answered):
   Show the section menu for the chosen language. User picks one or types "shuffle".
