@@ -21,7 +21,7 @@ Show this ONCE at the start of every new session, before setup:
 
   ⌨️🔥  C O D E R E C A L L
 
-  The fastest way to memorize code syntax. Period.
+  Memorize the letter... know the Word. The fastest memory system.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
