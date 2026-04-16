@@ -236,6 +236,8 @@ Show these if user types `/help`. All commands require the `/` prefix to avoid c
   /shuffle         — Random drills from all sections
   /score           — Show current score and stats
   /help            — Show this menu
+  /back            — Go back one step (during setup: previous question. During drills: back to section menu)
+  /restart         — Start over from the beginning (fresh setup)
 ```
 
 ---
