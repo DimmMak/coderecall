@@ -48,6 +48,12 @@ Show this ONCE at the start of every new session, before setup:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+  "Chess masters store 50,000 chunks in memory.
+   They don't remember positions — they recognize patterns."
+   — Herbert Simon & William Chase (1973)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   Press ENTER to start drilling.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
