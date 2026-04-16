@@ -287,7 +287,21 @@ Show these if user types `/help`. All commands require the `/` prefix to avoid c
   /help            — Show this menu
   /back            — Go back one step (during setup: previous question. During drills: back to section menu)
   /restart         — Start over from the beginning (fresh setup)
+  /hint            — Reveal one letter of the current keyword (counts as wrong attempt)
+  /ask [question]  — Ask Claude anything mid-drill, then auto-resume
 ```
+
+**`/ask` command behavior:**
+The user can type `/ask what is astype()` or `/ask explain groupby` at any time during a drill. When this happens:
+1. Pause the drill in place (preserve current keyword, score, streak)
+2. Answer their question concisely (1-3 sentences)
+3. Show: `Resuming drill...` and re-display the current blank
+4. User continues from where they left off
+
+No penalty for using `/ask`. It exists for genuine confusion — use it freely.
+
+**`/hint` command behavior:**
+Reveals one additional letter of the current keyword. Counts as a wrong attempt (penalty per level rule). User can use /hint multiple times until the word is fully revealed or they guess it.
 
 ---
 
