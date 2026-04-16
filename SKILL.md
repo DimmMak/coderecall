@@ -48,6 +48,8 @@ Step 5 (after level answered):
 
 Store language, ticker, objective, level, section. Begin drilling immediately.
 
+**DRILL MIX RULE:** The selected section is the user's FOCUS — but drills come from the ENTIRE pipeline. Out of every 5 drills, 3 come from the focus section and 2 come from other sections (rotating through the full pipeline). This way the user learns the whole data workflow while hammering their weak area. If user picked shuffle, all sections are weighted equally.
+
 ---
 
 ## THE SECTIONS
