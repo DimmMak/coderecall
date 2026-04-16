@@ -333,7 +333,7 @@ Then re-show the relevant question. Do not crash, do not proceed with bad data.
 
 **Commands:** Only recognized with `/` prefix. If user types a command without `/` during a drill, it's treated as a wrong answer. Between drills, commands without `/` are ignored (next drill loads).
 
-**Max wrong attempts per keyword:** After 5 wrong attempts on the same keyword, auto-reveal it:
+**Max wrong attempts per keyword:** After 5 wrong attempts on the same keyword, auto-reveal it. The 5th wrong attempt triggers the reveal with NO additional penalty (total penalty = 4 wrong x level penalty, not 5):
 ```
 💡 Revealed: SELECT | 0 pts | Remember this one.
 ```
