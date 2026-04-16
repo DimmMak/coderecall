@@ -59,17 +59,16 @@ When the user picks a language, show the section menu. They pick one or type "sh
 📂 SQL DRILLS
 ━━━━━━━━━━━━━
 
-Pick a section or type "shuffle" for mixed:
+Pick a section by number:
 
-  📥 acquire        — SELECT, FROM, WHERE, AND/OR, IN, BETWEEN, LIKE, DISTINCT, LIMIT
-  🧹 clean          — COALESCE, NULLIF, CASE WHEN, CAST, TRIM, REPLACE
-  🔗 join           — INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, ON, aliases
-  📊 aggregate      — GROUP BY, HAVING, COUNT, SUM, AVG, MIN, MAX
-  📐 sort-rank      — ORDER BY, ASC/DESC, ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD
-  🧠 advanced       — Subqueries, CTEs (WITH), EXISTS, UNION, nested queries
-  ⏱️ time           — DATE_TRUNC, EXTRACT, INTERVAL, BETWEEN dates, date math
-
-  🎲 shuffle        — Random mix from all sections (interview simulation)
+  [1] 📥 Querying & Filtering   — SELECT, FROM, WHERE, AND/OR, IN, BETWEEN, LIKE, DISTINCT, LIMIT
+  [2] 🧹 Cleaning               — COALESCE, NULLIF, CASE WHEN, CAST, TRIM, REPLACE
+  [3] 🔗 Joining Tables         — INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, ON, aliases
+  [4] 📊 Aggregation            — GROUP BY, HAVING, COUNT, SUM, AVG, MIN, MAX
+  [5] 📐 Sorting & Ranking      — ORDER BY, ASC/DESC, ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD
+  [6] 🧠 Advanced Logic         — Subqueries, CTEs (WITH), EXISTS, UNION, nested queries
+  [7] ⏱️ Time & Date            — DATE_TRUNC, EXTRACT, INTERVAL, BETWEEN dates, date math
+  [0] 🎲 Shuffle                — Random mix from all sections (interview simulation)
 ```
 
 ### Python/Pandas Sections
@@ -77,18 +76,17 @@ Pick a section or type "shuffle" for mixed:
 📂 PYTHON / PANDAS DRILLS
 ━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Pick a section or type "shuffle" for mixed:
+Pick a section by number:
 
-  📥 load           — read_csv, read_sql, read_excel, pd.DataFrame
-  🧹 clean          — fillna, dropna, astype, rename, drop_duplicates, replace
-  🔍 explore        — head, describe, info, value_counts, shape, dtypes, nunique
-  🔪 filter         — df[condition], loc, iloc, query, isin, between
-  📊 aggregate      — groupby, agg, pivot_table, crosstab, transform
-  🔗 merge          — merge, concat, join, append
-  📈 visualize      — plt.plot, plt.bar, sns.heatmap, plt.scatter, plt.hist
-  📐 transform      — apply, lambda, map, rolling, shift, pct_change, cumsum
-
-  🎲 shuffle        — Random mix from all sections (interview simulation)
+  [1] 📥 Loading Data        — read_csv, read_sql, read_excel, pd.DataFrame
+  [2] 🧹 Cleaning            — fillna, dropna, astype, rename, drop_duplicates, replace
+  [3] 🔍 Exploring           — head, describe, info, value_counts, shape, dtypes, nunique
+  [4] 🔪 Filtering           — df[condition], loc, iloc, query, isin, between
+  [5] 📊 Aggregation         — groupby, agg, pivot_table, crosstab, transform
+  [6] 🔗 Merging             — merge, concat, join
+  [7] 📈 Visualization       — plt.plot, plt.bar, sns.heatmap, plt.scatter, plt.hist
+  [8] 📐 Transforming        — apply, lambda, map, rolling, shift, pct_change, cumsum
+  [0] 🎲 Shuffle             — Random mix from all sections (interview simulation)
 ```
 
 ---
